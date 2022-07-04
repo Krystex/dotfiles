@@ -122,7 +122,7 @@ PROMPT='%F{green} %*%F{magenta} %3~  $(git_prompt_info) %F{white}${NEWLINE}'
 PROMPT+='%F{133}➤ %f'
 
 # RPROMPT='🐳 %K{020}${DOCKER_HOST#ssh://}%k'
-PROMPT="╔ %F{72} %F{132}%3~  $(git_prompt_info) %F{fg0}$NEWLINE╚ "
+# PROMPT="╔ %F{72} %F{132}%3~  $(git_prompt_info) %F{fg0}$NEWLINE╚ "
 
 
 source <(kubectl completion zsh)
