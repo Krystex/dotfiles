@@ -114,6 +114,7 @@ export PATH=$USER/.local/bin:$PATH
 export EDITOR=vim
 alias dc=docker-compose
 alias python=python3
+alias vim=nvim
 
 #export PROMPT=$'\n'"%F{green} %*%F{magenta} %3~ $(git_prompt_info) %F{white}"$'\n'"$ "
 precmd() { print "" }
