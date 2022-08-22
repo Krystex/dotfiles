@@ -109,9 +109,9 @@ alias subl="open -a 'Sublime Text' $1"
 alias config="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 config config --local status.showUntrackedFiles no
 
-export PATH=$USER/.local/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
-export EDITOR=vim
+export EDITOR=nvim
 alias dc=docker-compose
 alias python=python3
 alias vim=nvim
